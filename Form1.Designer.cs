@@ -31,6 +31,7 @@
             button1 = new Button();
             textBox1 = new TextBox();
             checkBox1 = new CheckBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -61,11 +62,21 @@
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(567, 203);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 338);
+            Controls.Add(button2);
             Controls.Add(checkBox1);
             Controls.Add(textBox1);
             Controls.Add(button1);
@@ -81,5 +92,6 @@
         private Button button1;
         private TextBox textBox1;
         private CheckBox checkBox1;
+        private Button button2;
     }
 }
